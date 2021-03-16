@@ -101,6 +101,7 @@ Used with the `STORES` variable.
 | EVGA | US | `evga`|
 | EVGA | EU | `evga-eu`|
 | Expert | DE | `expert`|
+| FormD | US | `formd` |
 | Futurex | DE | `futurex`|
 | Galaxus | DE | `galaxus`|
 | Game | UK | `game`|

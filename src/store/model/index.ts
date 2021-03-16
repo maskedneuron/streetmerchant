@@ -65,6 +65,7 @@ import {Evatech} from './evatech';
 import {Evga} from './evga';
 import {EvgaEu} from './evga-eu';
 import {Expert} from './expert';
+import {FormD} from './formd';
 import {Futurex} from './futurex';
 import {Galaxus} from './galaxus';
 import {Game} from './game';
@@ -211,6 +212,7 @@ export const storeList = new Map([
   [Evga.name, Evga],
   [EvgaEu.name, EvgaEu],
   [Expert.name, Expert],
+  [FormD.name, FormD],
   [Futurex.name, Futurex],
   [Galaxus.name, Galaxus],
   [Game.name, Game],

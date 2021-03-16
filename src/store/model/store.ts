@@ -18,6 +18,7 @@ export type Brand =
   | 'colorful'
   | 'corsair'
   | 'evga'
+  | 'formd'
   | 'gainward'
   | 'galax'
   | 'gigabyte'
@@ -54,6 +55,7 @@ export type Series =
   | 'sonyps5c'
   | 'sonyps5de'
   | 'sf'
+  | 't1'
   | 'xboxsx'
   | 'xboxss';
 
@@ -153,6 +155,7 @@ export type Model =
   | 'twin edge'
   | 'twin x2 oc'
   | 'twin x2'
+  | 't1v1.1'
   | 'uprising'
   | 'ventus 2x oc'
   | 'ventus 2x'
