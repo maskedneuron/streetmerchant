@@ -23,6 +23,12 @@ export const Cottage: Store = {
     },
     {
       brand: 'cottage',
+      model: 'goleta valley standby',
+      series: 'covid',
+      url: 'https://mychart.sbch.org/mychart/openscheduling/SignupAndSchedule/EmbeddedSchedule?public=1&lang=english&vt=1170000453&dept=101001163',
+    },
+    {
+      brand: 'cottage',
       model: 'hollister village',
       series: 'covid',
       url: 'https://mychart.sbch.org/mychart/openscheduling/SignupAndSchedule/EmbeddedSchedule?public=1&lang=english&vt=1170000443&dept=105003001',

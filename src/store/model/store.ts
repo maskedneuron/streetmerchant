@@ -111,6 +111,7 @@ export type Model =
   | 'gaming x3'
   | 'ghost oc'
   | 'goleta valley'
+  | 'goleta valley standby'
   | 'hollister village'
   | 'suprim x'
   | 'suprim'
