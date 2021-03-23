@@ -57,7 +57,7 @@ export type Series =
   | 'sonyps5c'
   | 'sonyps5de'
   | 'sf'
-  | 't1'
+  | 't1v1.1'
   | 'xboxsx'
   | 'xboxss';
 
@@ -160,7 +160,11 @@ export type Model =
   | 'twin edge'
   | 'twin x2 oc'
   | 'twin x2'
-  | 't1v1.1'
+  | 't1v1.1 black'
+  | 't1v1.1 e-white'
+  | 't1v1.1 silver'
+  | 't1v1.1 titanium'
+  | 't1v1.1 titanium silver'
   | 'uprising'
   | 'ventus 2x oc'
   | 'ventus 2x'
