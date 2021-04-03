@@ -1,4 +1,4 @@
-import {Browser, PuppeteerLifeCycleEvent} from 'puppeteer';
+import { Browser, PuppeteerLifeCycleEvent } from 'puppeteer';
 
 export type Element = {
   container?: string;
@@ -17,7 +17,6 @@ export type Brand =
   | 'asus'
   | 'colorful'
   | 'corsair'
-  | 'cottage'
   | 'evga'
   | 'formd'
   | 'gainward'
@@ -40,7 +39,6 @@ export type Brand =
 export type Series =
   | 'test:series'
   | 'captcha-deterrent'
-  | 'covid'
   | '3060'
   | '3060ti'
   | '3070'
@@ -110,9 +108,6 @@ export type Model =
   | 'gaming x'
   | 'gaming x3'
   | 'ghost oc'
-  | 'goleta valley'
-  | 'goleta valley standby'
-  | 'hollister village'
   | 'suprim x'
   | 'suprim'
   | 'gaming'
@@ -230,7 +225,7 @@ export type Store = {
   linksBuilder?: {
     builder: (docElement: cheerio.Cheerio, series: Series) => Link[];
     ttl?: number;
-    urls: Array<{series: Series; url: string | string[]}>;
+    urls: Array<{ series: Series; url: string | string[] }>;
   };
   labels: Labels;
   name: string;

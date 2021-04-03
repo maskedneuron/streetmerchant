@@ -1,5 +1,5 @@
-import {existsSync, readFileSync} from 'fs';
-import {banner} from './banner';
+import { existsSync, readFileSync } from 'fs';
+import { banner } from './banner';
 import dotenv from 'dotenv';
 import path from 'path';
 import * as console from 'console';
@@ -12,12 +12,12 @@ if (process.env.npm_config_conf) {
       path: path.resolve(__dirname, '../../' + process.env.npm_config_conf),
     });
   } else {
-    dotenv.config({path: path.resolve(__dirname, '../../.env')});
+    dotenv.config({ path: path.resolve(__dirname, '../../.env') });
   }
 } else if (existsSync(path.resolve(__dirname, '../../dotenv'))) {
-  dotenv.config({path: path.resolve(__dirname, '../../dotenv')});
+  dotenv.config({ path: path.resolve(__dirname, '../../dotenv') });
 } else {
-  dotenv.config({path: path.resolve(__dirname, '../../.env')});
+  dotenv.config({ path: path.resolve(__dirname, '../../.env') });
 }
 
 console.info(
@@ -214,7 +214,6 @@ const notifications = {
       3080: envOrArray(process.env.DISCORD_NOTIFY_GROUP_3080),
       3090: envOrArray(process.env.DISCORD_NOTIFY_GROUP_3090),
       'captcha-deterrent': [],
-      covid: envOrArray(process.env.DISCORD_NOTIFY_GROUP_VACCINE),
       darkhero: envOrArray(process.env.DISCORD_NOTIFY_GROUP_DARKHERO),
       rx6800: envOrArray(process.env.DISCORD_NOTIFY_GROUP_RX6800),
       rx6800xt: envOrArray(process.env.DISCORD_NOTIFY_GROUP_RX6800XT),
@@ -381,7 +380,6 @@ const store = {
       3080: envOrNumber(process.env.MAX_PRICE_SERIES_3080),
       3090: envOrNumber(process.env.MAX_PRICE_SERIES_3090),
       'captcha-deterrent': 0,
-      covid: 0,
       darkhero: envOrNumber(process.env.MAX_PRICE_SERIES_DARKHERO),
       rx6800: envOrNumber(process.env.MAX_PRICE_SERIES_RX6800),
       rx6800xt: envOrNumber(process.env.MAX_PRICE_SERIES_RX6800XT),
@@ -414,7 +412,6 @@ const store = {
     '3070',
     '3080',
     '3090',
-    'covid',
     'rx6800',
     'rx6800xt',
     'rx6900xt',
